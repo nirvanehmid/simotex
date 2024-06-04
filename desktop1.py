@@ -3,7 +3,7 @@ import numpy as np
 import pyodbc
 import pandas as pd
 
-excel_file_path = "C:/Users/Asus/Desktop/pfatool/end.xlsx"
+excel_file_path = /end.xlsx"
 dataset = pd.read_excel(excel_file_path)
 
 from sklearn.model_selection import train_test_split
@@ -16,7 +16,7 @@ rf_classifier = RandomForestClassifier()
 rf_classifier.fit(X_train, y_train)
 conn = pyodbc.connect(
     r'DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};'
-    r'DBQ=C:\Users\Asus\Desktop\pfatool\db.accdb;'
+    r'DBQ=\db.accdb;'
 )
 def fetch_data(service=None):
     cursor = conn.cursor()

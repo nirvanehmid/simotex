@@ -1,5 +1,1 @@
-numpy
-pandas
 pyodbc==4.0.32
-scikit-learn
-openpyxl

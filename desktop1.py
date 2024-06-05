@@ -16,7 +16,7 @@ rf_classifier = RandomForestClassifier()
 rf_classifier.fit(X_train, y_train)
 conn = pyodbc.connect(
     r'DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};'
-    r'DBQ=\db.accdb;'
+    r'DBQ=./db.accdb;'  # Use ./ to indicate the current directory
 )
 def fetch_data(service=None):
     cursor = conn.cursor()

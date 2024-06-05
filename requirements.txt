@@ -2,3 +2,4 @@ pyodbc
 pandas
 numpy
 openpyxl
+scikit-learn

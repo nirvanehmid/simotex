@@ -1,4 +1,4 @@
-pyodbc==23.2.1
+pyodbc==5.1.0
 pandas
 numpy
 openpyxl
